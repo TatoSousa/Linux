@@ -1,0 +1,22 @@
+apt-get install -y language-pack-en
+
+--- Para instalar todos os locales.... apt-get install locales-all
+
+
+-- Locale (verificar se está em inglês)
+-- Locale -a (verificar pacotes instalados)
+-- Instalar o en_US.UTF-8
+
+
+ dpkg-reconfigure locales
+localedef -i en_US -f UTF-8 en_US.UTF-8
+
+
+
+-- Reconfigurar o locate
+-- localedef -i en_US -f UTF-8 en_US.UTF-8
+-- Reconfigurar o locate
+-- localedef -i en_US -f UTF-8 en_US.UTF-8
+
+locale
+locale -a
