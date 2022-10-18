@@ -1,0 +1,4 @@
+# step-by-step to show data and time in history command
+
+echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
+. ~/.bash_profile
